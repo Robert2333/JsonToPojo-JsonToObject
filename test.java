@@ -1,8 +1,9 @@
-public class 徐俊超测试名字 {
+@Modal(type = NitDataModel.Type.IN)
+public class In extends NitDataModel {
     //我是注释1
-    private Hello hello;
+    private HelloWorld helloWorld;
 
-    public class Hello {
+    public class HelloWorld {
         //
         private String test1;
         //
@@ -54,12 +55,12 @@ public class 徐俊超测试名字 {
     //你妈嗨
     private Integer test;
 
-    public void setHello(Hello hello) {
-        this.hello = hello;
+    public void setHelloWorld(HelloWorld helloWorld) {
+        this.helloWorld = helloWorld;
     }
 
-    public Hello getHello() {
-        return this.hello;
+    public HelloWorld getHelloWorld() {
+        return this.helloWorld;
     }
 
     public void setTest(Integer test) {
